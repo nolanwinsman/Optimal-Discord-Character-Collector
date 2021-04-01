@@ -141,8 +141,7 @@ def main():
     checkClaimAvalibility()
     os.chdir(path)
     deleteImg(path)
-    webbrowser.open('https://discord.com/channels/614566919265058819/614861613903904768')  #opens main server
-    #webbrowser.open('https://discord.com/channels/763507853851623464/766047479334174745') #opens test server
+    webbrowser.open('LINK TO DISCORD SERVER AND CHANNEL')  #opens main server
     time.sleep(15)
     clickChatBar()
     typeOnScreen('$DK')
