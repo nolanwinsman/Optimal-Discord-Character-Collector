@@ -3,7 +3,7 @@ import sys
 import glob
 import os
 import pytesseract as tess
-#tess.pytesseract.tesseract_cmd = r'C:\Users\Nolan\AppData\Local\Tesseract-OCR\tesseract.exe' #Windows machines need the path to tesseract.exe
+#tess.pytesseract.tesseract_cmd = # put path to pytesseract
 from PIL import Image, ImageEnhance
 import math
 import time
@@ -133,8 +133,7 @@ def finished():
     pyautogui.hotkey('ctrl', 'w')
     exit()
 
-#path = r'C:\Users\Nolan\PycharmProjects\waifu\\'  # Windows Machine
-path = r'/home/nolanwinsman/PycharmProjects/waifu/' #Linux Machine
+path = input("Path to character folder ") 
 
 
 def main():
